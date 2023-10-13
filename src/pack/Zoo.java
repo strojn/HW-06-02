@@ -21,6 +21,7 @@ public class Zoo {
         System.out.println("\nHW - 06 - 02");
         System.out.println("розмір списку animals ДО видалень: " + animals.size());
 
+//        animals.remove("їжак");//краще так ніж через індекси
         animals.remove(6);//7
         animals.remove(4);//5
         animals.remove(2);//3
